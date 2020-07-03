@@ -9,7 +9,7 @@ Database management tool : Allows you to view, edit, export Dolibarr database.
 ![Screenshot dbadmin](img/screenshot_en.png?raw=true "Dbadmin"){imgmd}
 
 ### Add a new permission
-![Permission dbadmin](img/permission_en.png "Dbadmin")
+![Permission dbadmin](img/permission_en.png?raw=true "Dbadmin"){imgmd}
 
 Other modules are available on [Dolistore.com](https://www.dolistore.com>).
 

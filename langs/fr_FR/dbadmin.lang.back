@@ -1,0 +1,49 @@
+# Copyright (C) 2020 Alice Adminson <aadminson@example.com>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+#
+# Générique
+#
+
+# Module label 'ModuleDbadminName'
+ModuleDbadminName = Administration Base de donnée
+# Module description 'ModuleDbadminDesc'
+ModuleDbadminDesc = Outil de gestion de la base de donnée : Permet de voir, éditer, exporter la base de donnée de Dolibarr. Basé sur Adminer
+
+
+#
+# Permissions
+#
+Dbadmin = Administration Base de donnée
+Permission2073011 = Accés à l'outil de gestion de la base de donnée
+
+#
+# Page d'administration
+#
+DbadminSetup = Configuration du module Dbadmin
+Settings = Réglages
+DbadminSetupPage = Page de configuration du module Dbadmin
+
+#
+# Page À propos
+#
+About = À propos
+DbadminAbout = À propos de Dbadmin
+DbadminAboutPage = Page à propos de Dbadmin
+
+#
+# Page
+#
+DbadminArea = DbAdmin : Administration de la Base de donnée
