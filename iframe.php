@@ -64,6 +64,9 @@ if(!is_numeric($zd)) {
 	$_SESSION["token"]=rand(1,1e6);
 }
 $_GET["username"] = "";
+if ($_SESSION["db"]["server"][""][""][""] != true){
+	$_POST["auth"] = array ("driver"=>"server","server"=>"","username"=>"","password"=>"","db"=>"");
+}
 
 function adminer_object()
 {

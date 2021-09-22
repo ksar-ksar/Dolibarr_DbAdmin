@@ -63,7 +63,7 @@ class modDbadmin extends DolibarrModules
 		$this->editor_name = 'ksar';
 		$this->editor_url = 'https://github.com/ksar-ksar/';
 		// Possible values for version are: 'development', 'experimental', 'dolibarr', 'dolibarr_deprecated' or a version string like 'x.y.z'
-		$this->version = '1.0';
+		$this->version = '1.1';
 		// Url to the file with your last numberversion of this module
 		$this->url_last_version = 'https://raw.githubusercontent.com/ksar-ksar/Dolibarr_DbAdmin/master/version.txt';
 

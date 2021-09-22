@@ -35,7 +35,7 @@ class AdminerDoliLogin {
 		$this->doli_db_name = $dolibarr_main_db_name;
 		$this->doli_db_user = $dolibarr_main_db_user;
 		$this->doli_db_pass = $dolibarr_main_db_pass;
-        set_session('pwds', $dolibarr_main_db_pass);
+        //set_session('pwds', $dolibarr_main_db_pass);
     }
 
     public function credentials() {
@@ -48,7 +48,7 @@ class AdminerDoliLogin {
         }
     }
 
-    public function loginForm() {
+    /*public function loginForm() {
         echo '<div><h3>Not in the tool</h3></div>';
         die();
     }
@@ -56,7 +56,7 @@ class AdminerDoliLogin {
 	public function database() {
 		// database name, will be escaped by Adminer
 		return $this->doli_db_name;
-	}
+	}*/
 
 	function login($login, $password) {
         return true;

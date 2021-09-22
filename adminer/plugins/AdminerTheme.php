@@ -30,7 +30,9 @@ class AdminerTheme
     {
         define("PMTN_ADMINER_THEME", true);
 
-        $this->themeName = isset($_GET["username"]) && isset($themes[SERVER]) ? $themes[SERVER] : $defaultTheme;
+        $this->themeName = isset($_GET["username"]) && isset($_GET["server"]) && isset($themes[$_GET["server"]])
+            ? $themes[$_GET["server"]]
+            : $defaultTheme;
     }
 
     /**
@@ -44,6 +46,8 @@ class AdminerTheme
 
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+
+        <link rel="icon" type="image/ico" href="adminer/images/favicon.png">
 
         <?php
             // Condition for Windows Phone has to be the first, because IE11 contains also iPhone and Android keywords.
