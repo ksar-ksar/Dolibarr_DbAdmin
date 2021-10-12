@@ -288,7 +288,7 @@ class modDbadmin extends DolibarrModules
 			'type'=>'left',                          // This is a left menu entry
 			'titre'=>'ModuleDbadminName',
 			'mainmenu'=>'',
-			'leftmenu'=>'admintools',
+			'leftmenu'=>'',
 			'url'=>'/dbadmin/index.php?mainmenu=home&amp;leftmenu=admintools',
 			'langs'=>'dbadmin@dbadmin',	        // Lang file to use (without .lang) by module. File must be in langs/code_CODE/ directory.
 			'position'=>1000+$r,
